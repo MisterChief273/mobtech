@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #222222"
+    tools:context=".splash">
+
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_timefightersplashicon"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/raleway"
+        android:text="TIME FIGHTER"
+        android:textAlignment="center"
+        android:textColor="#CBC3E3"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="-215dp"
+        android:indeterminateTint="#CBC3E3">
+
+    </ProgressBar>
+
+    <CheckBox
+        android:id="@+id/skip_splash"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Skip?"
+        android:textAlignment="center"
+        android:textColor="#CBC3E3"
+
+        />
+
+
+</RelativeLayout>

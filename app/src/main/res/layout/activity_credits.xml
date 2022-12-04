@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Credits"
+    android:background="@drawable/img"
+    >
+
+    <TextView
+        android:id="@+id/Credits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-605dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:text="✇ Credits ✇"
+        android:textColor="#7600bc"
+        android:textSize="47dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Game System Designers"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-475dp"
+        android:textColor="#be2ed6"
+        android:textSize="23dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tirathjit Singh"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-400dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Jathniel Dayanandan"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-360dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Harish Ramachandra"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-320dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Graphic Designers"
+        android:gravity="center"
+        android:layout_marginTop="-195dp"
+        android:fontFamily="@font/raleway"
+        android:textColor="#b100cd"
+        android:textSize="23dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tirathjit Singh"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-120dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Jathniel Dayanandan"
+        android:gravity="center"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="-80dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Harish Ramachandra"
+        android:textColor="#bebebe"
+        android:textSize="17dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Back-End Developers"
+        android:textColor="#a000c2"
+        android:textSize="23dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Tirathjit Singh"
+        android:textColor="#bebebe"
+        android:textSize="17dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/raleway"
+        android:gravity="center"
+        android:text="Jathniel Dayanandan"
+        android:textColor="#bebebe"
+        android:textSize="17dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/raleway"
+        android:text="Harish Ramachandra"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:textColor="#bebebe"
+        android:textSize="17dp" >
+
+    </TextView>
+
+
+</RelativeLayout>
